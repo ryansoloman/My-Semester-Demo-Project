@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --themecolor: #EE7A3F;
+}
+
+#footer {
+    background-color: var(--themecolor);
+    border: 3px solid var(--themecolor);
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+    /* flex-direction: column; */
+    padding: 50px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    list-style: none;
+    list-style-type: none;
+}
+
+img {
+    background-color: white;
+    border-radius: 50px;
+    width: 200px;
+    /* height: 150px; */
+}
+
+
+ul{
+    list-style-type: none;
+    line-height: 2.5;
+
+}
+
+.MailingList {
+    display: block;
+    padding-top: 10px;
+    align-items: center;
+}
